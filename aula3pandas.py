@@ -119,4 +119,5 @@ df['Tempo_envio'].max()
 #identificando o outlier
 df[df['Tempo_envio']==20]
 
+#salvando o arquivo formato csv
 df.to_csv('df_vendas_novo.csv', index=False)
